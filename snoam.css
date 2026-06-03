@@ -202,3 +202,47 @@ THANK YOU PAGE
    text-align: center;
   font-size: 40px;
 }
+
+/*=============
+MOBILE SETTINGS
+=============*/
+
+@media (max-width: 600px) {
+  body {
+    font-size: 20px;
+  }
+
+  .site-nav {
+    font-size: 22px;
+  }
+
+  .article-link {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .article-preview-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .article-title {
+    font-size: 28px;
+  }
+
+  .article-description,
+  .about-page-body,
+  .article-page-body {
+    font-size: 24px;
+  }
+
+  .contact-form-top-inputs {
+  flex-direction: column;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .send-button {
+    font-size: 22px;
+  }
+}
