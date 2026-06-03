@@ -1,0 +1,204 @@
+/*====
+GLOBAL
+====*/
+
+img {
+  max-width: 100%;
+}
+
+header {
+  margin-bottom: 75px;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-name {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 60px;    
+  }
+
+.site-name-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body {
+  font-family: "Special Elite", monospace;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/*======
+HOMEPAGE
+======*/
+
+.article-card {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.article-link {
+  height: 250px;
+  padding: 25px;
+  display: flex;
+  gap: 25px;
+  align-items: stretch;
+  color: inherit;
+  text-decoration: none;
+  transition: box-shadow 0.4s;
+}
+
+.article-link:hover {
+  box-shadow: 2px 2px 4px lightgray;
+}
+
+.article-preview-image {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.article-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+  gap: 10px;
+}
+
+.article-title {
+  margin: 0;
+}
+
+.article-description {
+  margin: 0;
+}
+
+.article-date {
+  margin: 0;
+}
+
+/*==========
+ARTICLE PAGE
+==========*/
+
+.article-image {
+  display: block;
+  max-width: 800px;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+}
+
+.article-page-title {
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+  font-size: 40px;
+}
+
+.article-page-body {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.article-page-subheading {
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+
+/*==========
+ABOUT PAGE
+==========*/
+
+.about-page-body {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+/*==========
+CONTACT PAGE
+==========*/
+
+.contact-form-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.contact-form {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-family: inherit;
+  font-size: 24px;
+  box-sizing: border-box;
+}
+
+.contact-form-top-inputs {
+  display: flex;
+  gap: 25px;
+}
+
+.contact-form-name,
+.contact-form-email {
+  flex: 1;
+  min-width: 0;
+}
+
+.contact-form textarea {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.send-button {
+  display: block;
+  margin-left: auto;
+  font-family: inherit;
+  font-size: 24px;
+}
+
+/*============
+THANK YOU PAGE
+============*/
+
+.thank-you-message {
+   text-align: center;
+  font-size: 40px;
+}
