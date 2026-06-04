@@ -23,6 +23,10 @@ header {
   text-decoration: none;
 }
 
+.current-page {
+  font-weight: bold;
+}
+
 .site-name {
     text-align: center;
     padding-top: 35px;
