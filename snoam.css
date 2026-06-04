@@ -41,16 +41,25 @@ header {
 main {
   padding-left: 20px;
   padding-right: 20px;
+  flex: 1;
 }
 
 body {
   font-family: "Special Elite", monospace;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
   font-size: 12px;
   text-align: center;
   margin-top: 100px;
+}
+
+.disclaimer {
+  font-family: Arial;
+  font-size: 8px;
 }
 
 /*======
