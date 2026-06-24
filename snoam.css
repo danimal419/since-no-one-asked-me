@@ -139,6 +139,10 @@ ARTICLE PAGE
   color: #666;
 }
 
+.emoji {
+  font-style: normal;
+}
+
 .article-image {
   display: block;
   max-width: 100%;
