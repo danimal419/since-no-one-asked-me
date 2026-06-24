@@ -2,7 +2,7 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sincenooneaskedme.com</loc>
+    <loc>https://sincenooneaskedme.com/</loc>
   </url>
 
   <url>
@@ -23,6 +23,10 @@
 
   <url>
     <loc>https://sincenooneaskedme.com/articles/whered-all-my-friends-go.html</loc>
+  </url>
+
+  <url>
+    <loc>https://sincenooneaskedme.com/articles/wedding-singer-musical.html</loc>
   </url>
 
 </urlset>
