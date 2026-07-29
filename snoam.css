@@ -194,6 +194,14 @@ ARTICLE PAGE
   font-size: 30px;
 }
 
+.pull-quote {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
 /*==========
 ABOUT PAGE
 ==========*/
