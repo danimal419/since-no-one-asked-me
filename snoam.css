@@ -202,6 +202,16 @@ ARTICLE PAGE
   margin: 2.5rem 0;
 }
 
+.feature-card {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
 /*==========
 ABOUT PAGE
 ==========*/
