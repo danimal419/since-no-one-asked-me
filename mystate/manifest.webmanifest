@@ -1,0 +1,13 @@
+{
+  "name": "My State — Daily Tracker",
+  "short_name": "My State",
+  "description": "Private personal daily tracker",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#111713",
+  "theme_color": "#111713",
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
