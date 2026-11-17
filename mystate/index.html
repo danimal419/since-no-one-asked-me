@@ -103,6 +103,7 @@ function loadEntries(){
     return {};
   }
 }
+let entries=loadEntries();
 function persist(nextEntries=entries){
   if(storageProblem)return false;
   try{
